@@ -1,0 +1,66 @@
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 4rem;
+  width: 50%;
+}
+
+.job-btn {
+  background: transparent;
+  border-color: transparent;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.job-btn:hover {
+  color: #14b8a6;
+}
+
+.active-btn {
+  color: #14b8a6;
+}
+
+.job-company {
+  text-transform: uppercase;
+  color: #334155;
+  background: #cbd5e1;
+  padding: 6px 12px;
+  border-radius: 2px;
+  margin: 1px 0;
+}
+
+.job-date {
+  color: #64748b;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.job-desc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.job-desc p {
+  color: #334155;
+  line-height: 1.5;
+}
+
+.jobs-center {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 4rem;
+  flex-direction: start;
+}
+
+.job-info {
+  width: 50%;
+}
+
+.job-icon {
+  color: #14b8a6;
+}
